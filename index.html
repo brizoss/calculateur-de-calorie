@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>calculateur de calories</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur de Calories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculateur de Calories</h1>
+        <form id="calorie-form">
+            <label for="weight">Poids (kg):</label>
+            <input type="number" id="weight" required>
+
+            <label for="height">Taille (cm):</label>
+            <input type="number" id="height" required>
+
+            <label for="age">Âge:</label>
+            <input type="number" id="age" required>
+
+            <label for="frequency">Fréquence d'entraînement (jours/semaine):</label>
+            <input type="number" id="frequency" required>
+
+            <label for="goal">But:</label>
+            <select id="goal" required>
+                <option value="stabilisation">Stabilisation</option>
+                <option value="perte-de-gras">Perte de gras</option>
+                <option value="prise-de-masse">Prise de masse</option>
+            </select>
+
+            <button type="submit">Calculer</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
